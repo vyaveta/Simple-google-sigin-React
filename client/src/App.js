@@ -22,7 +22,7 @@ function App() {
     /* global google */
     google.accounts.id.initialize({
       client_id:
-        "880019132334-5q1n8crc19h8fn9luukc0ksc2kgvmt8j.apps.googleusercontent.com",
+        "your_client_id_here",
       callback: handleCallbackResponse,
     });
 
